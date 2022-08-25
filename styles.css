@@ -12,6 +12,7 @@
 
 * {
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 img {
@@ -25,7 +26,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     max-height: 100vh;
-    background-color: #fff;
+    /* background-color: #fff; */
     color: var(--gray);
     font-family: var(--default-font);
     font-size: 1.25rem;
@@ -217,7 +218,7 @@ i.fa-brands:hover {
 
     .logo-image {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     h1 {
