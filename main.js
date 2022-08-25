@@ -6,7 +6,11 @@ const input = document.querySelector('input');
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 body.addEventListener('click', () => {
-    clear();
+    if (small.classList.contains('error')) {
+        small.classList.remove('error');
+        small.innerText = '';
+        input.classList.remove('input-error');
+    }
 })
 
 form.addEventListener('submit', e => {
@@ -33,12 +37,4 @@ function setSuccess(input, message) {
     small.classList.add('success');
     input.classList.add('input-success');
     small.innerText = message;
-}
-
-function clear() {
-    if (small.classList.contains('error')) {
-        small.classList.remove('error');
-        small.innerText = '';
-        input.classList.remove('input-error');
-    }
 }
