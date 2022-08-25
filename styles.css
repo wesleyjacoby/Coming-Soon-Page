@@ -212,12 +212,12 @@ i.fa-brands:hover {
 @media screen and (min-width: 580px) {
     .main-container {
         max-width: 640px;
-        padding: 5.3125rem 0.625rem 3.125rem 0.625rem;
+        padding: 5.3125rem 0.625rem 4.5rem 0.625rem;
     }
 
     .logo-image {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     h1 {
