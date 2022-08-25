@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/wesleyjacoby/Coming-Soon-Page)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://wesleyjacoby.github.io/Coming-Soon-Page/)
 
 ## My process
 
