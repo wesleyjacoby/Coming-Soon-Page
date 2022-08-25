@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: #fff;
     color: var(--gray);
     font-family: var(--default-font);
@@ -212,12 +212,12 @@ i.fa-brands:hover {
 @media screen and (min-width: 580px) {
     .main-container {
         max-width: 640px;
-        padding: 5rem 0.625rem 1.25rem 0.625rem;
+        padding: 5.3125rem 0.625rem 1.25rem 0.625rem;
     }
 
     .logo-image {
         width: 100%;
-        margin-bottom: 2.5rem;
+        margin-bottom: 30px;
     }
 
     h1 {
@@ -244,7 +244,7 @@ i.fa-brands:hover {
         position: relative;
         flex-direction: row;
         gap: 1rem;
-        margin-bottom: 5.875rem;
+        margin-bottom: 4.25rem;
     }
 
     input {
